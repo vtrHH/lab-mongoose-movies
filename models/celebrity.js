@@ -7,7 +7,7 @@ const celebritySchema = new mongoose.Schema({
   },
   occupation: {
     type: String,
-    enum: ['actor', 'singer', 'comedian', 'unknown']
+    required: true
   },
   catchPhrase: {
     type: String,

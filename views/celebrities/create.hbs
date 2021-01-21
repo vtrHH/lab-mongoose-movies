@@ -2,18 +2,13 @@
 
 <form method="POST" action="/celebrities">
 <label for="input-name">Name</label>
-<input type="text" id="input-name" placeholder="Name of the celebrity">
+<input type="text" id="input-name" name="name" placeholder="Name of the celebrity">
 
 <label for="input-occupation">Occupation</label>
-<select name="occupation" id="input-occupation" required></select>
-<option value="" selected disabled>Occupation</option>
-<option value="actor"></option>
-<option value="singer"></option>
-<option value="comedian"></option>
-<option value="unknown"></option>
+<input type="text" id="input-occupation" name="occupation" placeholder="Occupation of him/her">
 
 <label for="input-catchPhrase">Catch Phrase</label>
-<input type="text" id="input-catchPhrase" placeholder="Give us a catchy phrase...">
+<input type="text" id="input-catchPhrase" name="catchPhrase" placeholder="Give us a catchy phrase...">
 
 <button>Create Celebrity</button>
 </form>
